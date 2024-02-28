@@ -1,10 +1,10 @@
 const character = "dj florien";
 console.log(character);
-const inputs = document.querySelectorAll("input");
-console.log(inputs);
-inputs.forEach(input => {
-    console.log(input);
-})
+// const inputs = document.querySelectorAll("input");
+// console.log(inputs);
+// inputs.forEach(input => {
+// //     console.log(input);
+// })
 const circ =(diameter:number) => {
     return diameter *Math.PI;
 }
@@ -41,4 +41,8 @@ mixed.push(60)
 mixed.push('yubile')
 mixed.push(true)
 console.log(mixed)
+
+
+
+
 
